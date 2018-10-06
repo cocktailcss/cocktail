@@ -2,8 +2,8 @@
 
 <br />
 
-- [What is Cocktail](what-is-cocktail)
-- [Difference from others](difference-from-others)
+- [What is Cocktail](#what-is-cocktail)
+- [Difference from others](#difference-from-others)
 - [Getting started](#getting-started)
 - [Breakpoints](#breakpoint)
 - [Docs](#docs)
@@ -403,7 +403,7 @@ Usage examples:
 
 <br />
 
-### Border radius
+### Border
 [↑ Back to contents](#docs)
 
 | Class  | Style  | Breakpoint support |
