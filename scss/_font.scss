@@ -1,0 +1,114 @@
+.font-xs {
+  font-size: 0.75rem;
+  @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList {
+    &--#{$nameBreakpointSuffix} {
+      @include respondTo(#{$valueBreakpointSuffix}) {
+        font-size: 0.75rem;
+      }
+    }
+  }
+}
+
+.font-sm {
+  font-size: 0.875rem;
+  @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList {
+    &--#{$nameBreakpointSuffix} {
+      @include respondTo(#{$valueBreakpointSuffix}) {
+        font-size: 0.875rem;
+      }
+    }
+  }
+}
+
+.font-normal {
+  font-size: 1rem;
+  @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList {
+    &--#{$nameBreakpointSuffix} {
+      @include respondTo(#{$valueBreakpointSuffix}) {
+        font-size: 1rem;
+      }
+    }
+  }
+}
+
+.font-lg {
+  font-size: 1.25rem;
+  @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList {
+    &--#{$nameBreakpointSuffix} {
+      @include respondTo(#{$valueBreakpointSuffix}) {
+        font-size: 1.25rem;
+      }
+    }
+  }
+}
+
+.font-xl {
+  font-size: 1.5rem;
+  @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList {
+    &--#{$nameBreakpointSuffix} {
+      @include respondTo(#{$valueBreakpointSuffix}) {
+        font-size: 1.5rem;
+      }
+    }
+  }
+}
+
+.font-2xl {
+  font-size: 1.875rem;
+  @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList {
+    &--#{$nameBreakpointSuffix} {
+      @include respondTo(#{$valueBreakpointSuffix}) {
+        font-size: 1.875rem;
+      }
+    }
+  }
+}
+
+.font-3xl {
+  font-size: 2.25rem;
+  @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList {
+    &--#{$nameBreakpointSuffix} {
+      @include respondTo(#{$valueBreakpointSuffix}) {
+        font-size: 2.25rem;
+      }
+    }
+  }
+}
+
+.font-4xl {
+  font-size: 3rem;
+  @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList {
+    &--#{$nameBreakpointSuffix} {
+      @include respondTo(#{$valueBreakpointSuffix}) {
+        font-size: 3rem;
+      }
+    }
+  }
+}
+
+.font-5xl {
+  font-size: 4rem;
+  @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList {
+    &--#{$nameBreakpointSuffix} {
+      @include respondTo(#{$valueBreakpointSuffix}) {
+        font-size: 4rem;
+      }
+    }
+  }
+}
+
+.font-light {
+  font-weight: 300;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.font-italic {
+  font-style: italic;
+}

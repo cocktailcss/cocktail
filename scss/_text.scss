@@ -1,0 +1,86 @@
+.text-center {
+  text-align: center;
+  @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList {
+    &--#{$nameBreakpointSuffix} {
+      @include respondTo(#{$valueBreakpointSuffix}) {
+        text-align: center;
+      }
+    }
+  }
+}
+
+.text-left {
+  text-align: left;
+  @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList {
+    &--#{$nameBreakpointSuffix} {
+      @include respondTo(#{$valueBreakpointSuffix}) {
+        text-align: left;
+      }
+    }
+  }
+}
+
+.text-right {
+  text-align: right;
+  @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList {
+    &--#{$nameBreakpointSuffix} {
+      @include respondTo(#{$valueBreakpointSuffix}) {
+        text-align: right;
+      }
+    }
+  }
+}
+
+.text-top {
+  vertical-align: top;
+}
+
+.text-middle {
+  vertical-align: middle;
+}
+
+.text-bottom {
+  vertical-align: bottom;
+}
+
+.text-baseline {
+  vertical-align: baseline;
+}
+
+.text-nowrap {
+  white-space: nowrap;
+}
+
+.text-break {
+  word-break: break-all;
+}
+
+.text-tight {
+  line-height: 1.25;
+}
+
+.text-normal {
+  line-height: 1.5;
+}
+
+.text-loose {
+  line-height: 2;
+}
+
+.text-upper {
+  text-transform: uppercase;
+}
+
+.text-lower {
+  text-transform: lowercase;
+}
+
+.text-trunc {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.no-list {
+  list-style: none;
+}

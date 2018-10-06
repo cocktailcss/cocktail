@@ -1,0 +1,47 @@
+.bg-center {
+  background-position: center center;
+}
+
+.bg-top {
+  background-position: center top;
+}
+
+.bg-right {
+  background-position: right center;
+}
+
+.bg-bottom {
+  background-position: center bottom;
+}
+
+.bg-left {
+  background-position: left center;
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-contain {
+  background-size: contain;
+}
+
+.bg-width-full {
+  background-size: 100% auto;
+}
+
+.bg-height-full {
+  background-size: auto 100%;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
+.bg-fixed {
+  background-attachment: fixed;
+}
+
+.bg-white {
+  background-color: white;
+}

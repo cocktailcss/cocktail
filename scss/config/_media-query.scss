@@ -1,0 +1,5 @@
+@mixin respondTo($media) {
+  @media screen and (min-width: map-get($breakpointList, #{$media})) {
+    @content;
+  }
+}

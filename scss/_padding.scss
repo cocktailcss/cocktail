@@ -1,0 +1,87 @@
+@each $nameSizeSuffix, $valueSizeSuffix in $sizeList {
+  .padding-top-#{$nameSizeSuffix} {
+    padding-top: $valueSizeSuffix;
+    @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList
+    {
+      &--#{$nameBreakpointSuffix} {
+        @include respondTo(#{$valueBreakpointSuffix}) {
+          padding-top: $valueSizeSuffix;
+        }
+      }
+    }
+  }
+}
+
+@each $nameSizeSuffix, $valueSizeSuffix in $sizeList {
+  .padding-right-#{$nameSizeSuffix} {
+    padding-right: $valueSizeSuffix;
+    @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList
+    {
+      &--#{$nameBreakpointSuffix} {
+        @include respondTo(#{$valueBreakpointSuffix}) {
+          padding-right: $valueSizeSuffix;
+        }
+      }
+    }
+  }
+}
+
+@each $nameSizeSuffix, $valueSizeSuffix in $sizeList {
+  .padding-bottom-#{$nameSizeSuffix} {
+    padding-bottom: $valueSizeSuffix;
+    @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList
+    {
+      &--#{$nameBreakpointSuffix} {
+        @include respondTo(#{$valueBreakpointSuffix}) {
+          padding-bottom: $valueSizeSuffix;
+        }
+      }
+    }
+  }
+}
+
+@each $nameSizeSuffix, $valueSizeSuffix in $sizeList {
+  .padding-left-#{$nameSizeSuffix} {
+    padding-left: $valueSizeSuffix;
+    @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList
+    {
+      &--#{$nameBreakpointSuffix} {
+        @include respondTo(#{$valueBreakpointSuffix}) {
+          padding-left: $valueSizeSuffix;
+        }
+      }
+    }
+  }
+}
+
+@each $nameSizeSuffix, $valueSizeSuffix in $sizeList {
+  .padding-x-#{$nameSizeSuffix} {
+    padding-left: $valueSizeSuffix;
+    padding-right: $valueSizeSuffix;
+    @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList
+    {
+      &--#{$nameBreakpointSuffix} {
+        @include respondTo(#{$valueBreakpointSuffix}) {
+          padding-left: $valueSizeSuffix;
+          padding-right: $valueSizeSuffix;
+        }
+      }
+    }
+  }
+}
+
+@each $nameSizeSuffix, $valueSizeSuffix in $sizeList {
+  .padding-y-#{$nameSizeSuffix} {
+    padding-top: $valueSizeSuffix;
+    padding-bottom: $valueSizeSuffix;
+    @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList
+    {
+      &--#{$nameBreakpointSuffix} {
+        @include respondTo(#{$valueBreakpointSuffix}) {
+          padding-top: $valueSizeSuffix;
+          padding-bottom: $valueSizeSuffix;
+        }
+      }
+    }
+  }
+}

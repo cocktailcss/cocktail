@@ -1,0 +1,55 @@
+@each $nameSizeSuffix, $valueSizeSuffix in $gridSpanList {
+  .grid-column-#{$nameSizeSuffix} {
+    grid-column: $valueSizeSuffix;
+    @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList
+    {
+      &--#{$nameBreakpointSuffix} {
+        @include respondTo(#{$valueBreakpointSuffix}) {
+          grid-column: $valueSizeSuffix;
+        }
+      }
+    }
+  }
+}
+
+@each $nameSizeSuffix, $valueSizeSuffix in $gridGapList {
+  .grid-column-gap-#{$nameSizeSuffix} {
+    grid-column-gap: $valueSizeSuffix;
+    @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList
+    {
+      &--#{$nameBreakpointSuffix} {
+        @include respondTo(#{$valueBreakpointSuffix}) {
+          grid-column-gap: $valueSizeSuffix;
+        }
+      }
+    }
+  }
+}
+
+@each $nameSizeSuffix, $valueSizeSuffix in $gridGapList {
+  .grid-row-gap-#{$nameSizeSuffix} {
+    grid-row-gap: $valueSizeSuffix;
+    @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList
+    {
+      &--#{$nameBreakpointSuffix} {
+        @include respondTo(#{$valueBreakpointSuffix}) {
+          grid-row-gap: $valueSizeSuffix;
+        }
+      }
+    }
+  }
+}
+
+@each $nameSizeSuffix, $valueSizeSuffix in $gridGapList {
+  .grid-gap-#{$nameSizeSuffix} {
+    grid-gap: $valueSizeSuffix;
+    @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList
+    {
+      &--#{$nameBreakpointSuffix} {
+        @include respondTo(#{$valueBreakpointSuffix}) {
+          grid-gap: $valueSizeSuffix;
+        }
+      }
+    }
+  }
+}

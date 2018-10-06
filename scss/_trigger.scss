@@ -1,0 +1,11 @@
+.toggle-trigger {
+  &:checked ~ .toggle-content {
+    display: block;
+  }
+}
+
+.toggle-hover {
+  .hover-content {
+    display: block;
+  }
+}
