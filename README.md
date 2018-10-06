@@ -5,8 +5,10 @@
 - [What is Cocktail](#what-is-cocktail)
 - [Difference from others](#difference-from-others)
 - [Getting started](#getting-started)
+- [Work with source](#work-with-source)
 - [Breakpoints](#breakpoint)
 - [Docs](#docs)
+- [License](#license)
 
 <br />
 
@@ -29,37 +31,53 @@ Provided styles are well enough for most basic styling use cases. It helps you d
 
 Tools like [Tachyons](https://tachyons.io/), [Tailwind](https://tailwindcss.com/), [Basscss](http://basscss.com/) and [Blueprint](https://blueprintcss.io/) provide great functionality with similar approach. But they might be quite overwhelming and bloated with redunant or rarely used styles, old-fashion tweaks like clearfixes, float grids, etc. Also they are known for violating simple CSS class name conventions, making them hard to read and impossible to use with some tools (e.g. [Pug](https://github.com/pugjs/pug) templating).
 
-Cocktail aims for modern standard. It utilizes most frequently used styles and adhere [KISS](https://en.wikipedia.org/wiki/KISS_principle) principle to create a solid ground for basic styling. The rest you can (and should) write on your own.
+Cocktail aims for modern standard. It utilizes most frequently used styles and adheres [KISS](https://en.wikipedia.org/wiki/KISS_principle) principle to create a solid ground for basic styling. The rest you can (and should) write on your own.
 
 <br />
 
 # Getting started
 
-- Grab production ready `cocktail.min.css` and put it in your project, e.g.:
+Link Cocktail CSS stylesheet in your project before all other stylesheets with one of the options below. Next you might refer to [docs](#docs) for classes usage details.
 
-```html
-<head>
-	<link rel="stylesheet" href="cocktail.min.css">
-</head>
-```
+## CDN
 
-<br />
-
-- Get it via CDN:
-
+The latest minified production ready stylesheet is available via https://unpkg.com/cocktailcss:
 ```html
 <head>
 	<link rel="stylesheet" href="https://unpkg.com/cocktailcss">
 </head>
 ```
+## Download
+Download [`cocktail.css`](https://raw.githubusercontent.com/lyutkin/cocktailcss/master/cocktail.css) or minified production ready [`cocktail.min.css`](https://raw.githubusercontent.com/lyutkin/cocktailcss/master/cocktail.min.css). Put it in your project and link to it:
+```html
+<head>
+	<link rel="stylesheet" href="style/cocktail.min.css">
+</head>
+```
+
+## npm
+Install package with `npm install cocktailcss`.
 
 <br />
 
-- Install with `npm install cocktailcss`
+# Work with source
+
+Cocktail is built with [Sass (SCSS)](https://sass-lang.com/) and [Gulp](https://gulpjs.com/). You can customize your build the way you want. First, clone repository and install dependencies:
+```bash
+git clone https://github.com/lyutkin/cocktailcss.git
+cd cocktailcss
+npm install
+```
+
+Run `npm start` to start gulp task watcher. It will watch for `.scss` files changes and update `cocktail.css` and `cocktail.min.css`.
+
+Run `npm run size` to print out in console `cocktail.min.css` gziped file size.
 
 <br />
 
-### Breakpoints
+# Docs
+
+## Breakpoints
 
 Classes that support mobile-first breakpoints are marked with :heavy_check_mark: symbol in `Breakpoint support` table column. These classes might have a specific suffix to enable style at given breakpoint.
 
@@ -83,16 +101,16 @@ Usage examples:
 
 <br />
 
-# Docs
+## Contents
 
-| Content flow | Size and spacing | Appearance | Content |
+| Flow | Spacing | Appearance | Content |
 | - | - | - | - |
 | [Display](#display)<br />[Flex](#flex)<br />[Grid](#grid)<br />[Overflow](#overflow)<br />[Position](#position)<br />[Z-index](#z-index)<br />[Float](#float)<br />[Trigger](#trigger) | [Width](#width)<br />[Height](#height)<br />[Margin](#margin)<br />[Padding](#padding) | [Border](#border)<br />[Background](#background)<br />[Cursor](#cursor)<br />[Hover](#hover) | [Font](#font)<br />[Text](#text)<br />[Color](#color)<br /> |
 
 <br />
 
 ### Display
-[↑ Back to contents](#docs)
+[↑ Back to contents](#contents)
 
 | Class  | Style  | Breakpoint support |
 | - | - | :-: |
@@ -107,7 +125,7 @@ Usage examples:
 <br />
 
 ### Flex
-[↑ Back to contents](#docs)
+[↑ Back to contents](#contents)
 
 | Class  | Style  | Breakpoint support |
 | - | - | :-: |
@@ -138,7 +156,7 @@ Usage examples:
 <br />
 
 ### Grid
-[↑ Back to contents](#docs)
+[↑ Back to contents](#contents)
 
 | Class  | Style  | Breakpoint support |
 | - | - | :-: |
@@ -182,7 +200,7 @@ Usage examples:
 <br />
 
 ### Overflow
-[↑ Back to contents](#docs)
+[↑ Back to contents](#contents)
 
 | Class  | Style  | Breakpoint support |
 | - | - | :-: |
@@ -196,7 +214,7 @@ Usage examples:
 <br />
 
 ### Position
-[↑ Back to contents](#docs)
+[↑ Back to contents](#contents)
 
 | Class  | Style  | Breakpoint support |
 | - | - | :-: |
@@ -223,7 +241,7 @@ Usage examples:
 <br />
 
 ### Z-index
-[↑ Back to contents](#docs)
+[↑ Back to contents](#contents)
 
 | Class  | Style  | Breakpoint support |
 | - | - | :-: |
@@ -234,7 +252,7 @@ Usage examples:
 <br />
 
 ### Float
-[↑ Back to contents](#docs)
+[↑ Back to contents](#contents)
 
 | Class  | Style  | Breakpoint support |
 | - | - | :-: |
@@ -244,7 +262,7 @@ Usage examples:
 <br />
 
 ### Trigger
-[↑ Back to contents](#docs)
+[↑ Back to contents](#contents)
 
 | Class  | Style  | Breakpoint support |
 | - | - | :-: |
@@ -268,7 +286,7 @@ Usage examples:
 <br />
 
 ### Width
-[↑ Back to contents](#docs)
+[↑ Back to contents](#contents)
 
 | Class  | Style  | Breakpoint support |
 | - | - | :-: |
@@ -280,7 +298,7 @@ Usage examples:
 <br />
 
 ### Height
-[↑ Back to contents](#docs)
+[↑ Back to contents](#contents)
 
 | Class  | Style  | Breakpoint support |
 | - | - | :-: |
@@ -291,7 +309,7 @@ Usage examples:
 <br />
 
 ### Margin
-[↑ Back to contents](#docs)
+[↑ Back to contents](#contents)
 
 | Class  | Style  | Breakpoint support |
 | - | - | :-: |
@@ -349,7 +367,7 @@ Usage examples:
 <br />
 
 ### Padding
-[↑ Back to contents](#docs)
+[↑ Back to contents](#contents)
 
 | Class  | Style  | Breakpoint support |
 | - | - | :-: |
@@ -404,7 +422,7 @@ Usage examples:
 <br />
 
 ### Border
-[↑ Back to contents](#docs)
+[↑ Back to contents](#contents)
 
 | Class  | Style  | Breakpoint support |
 | - | - | :-: |
@@ -417,7 +435,7 @@ Usage examples:
 <br />
 
 ### Background
-[↑ Back to contents](#docs)
+[↑ Back to contents](#contents)
 
 | Class  | Style  | Breakpoint support |
 | - | - | :-: |
@@ -441,7 +459,7 @@ Usage examples:
 <br />
 
 ### Cursor
-[↑ Back to contents](#docs)
+[↑ Back to contents](#contents)
 
 | Class  | Style  | Breakpoint support |
 | - | - | :-: |
@@ -459,7 +477,7 @@ Usage examples:
 <br />
 
 ### Hover
-[↑ Back to contents](#docs)
+[↑ Back to contents](#contents)
 
 | Class  | Style  | Breakpoint support |
 | - | - | :-: |
@@ -493,7 +511,7 @@ Usage examples:
 <br />
 
 ### Font
-[↑ Back to contents](#docs)
+[↑ Back to contents](#contents)
 
 | Class  | Style  | Breakpoint support |
 | - | - | :-: |
@@ -516,7 +534,7 @@ Usage examples:
 <br />
 
 ### Text
-[↑ Back to contents](#docs)
+[↑ Back to contents](#contents)
 
 | Class  | Style  | Breakpoint support |
 | - | - | :-: |
@@ -555,7 +573,7 @@ Usage examples:
 <br />
 
 ### Color
-[↑ Back to contents](#docs)
+[↑ Back to contents](#contents)
 
 | Class  | Style  | Breakpoint support |
 | - | - | :-: |
@@ -564,3 +582,7 @@ Usage examples:
 | `color-red` | `color: red` | :x: |
 | `color-green` | `color: green` | :x: |
 | `color-blue` | `color: blue` | :x: |
+
+# License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
