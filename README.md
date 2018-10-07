@@ -1,14 +1,19 @@
 # 🍸 Cocktail
+[![npm version](https://img.shields.io/npm/v/cocktailcss.svg)](https://www.npmjs.com/package/cocktailcss)
 
 <br />
 
-- [What is Cocktail](#what-is-cocktail)
-- [Difference from others](#difference-from-others)
-- [Getting started](#getting-started)
-- [Work with source](#work-with-source)
-- [Breakpoints](#breakpoint)
-- [Docs](#docs)
-- [License](#license)
+* [What is Cocktail](#what-is-cocktail)
+* [Difference from others](#difference-from-others)
+* [Getting started](#getting-started)
+  * [CDN](#cdn)
+  * [Download](#download)
+  * [NPM](#npm)
+  * [Source](#source)
+* [Docs](#docs)
+  * [Breakpoints](#breakpoints)
+  * [Contents](#contents)
+* [License](#license)
 
 <br />
 
@@ -55,12 +60,12 @@ Download [`cocktail.css`](https://raw.githubusercontent.com/lyutkin/cocktailcss/
 </head>
 ```
 
-## npm
+## NPM
 Install package with `npm install cocktailcss`.
 
 <br />
 
-# Work with source
+## Source
 
 Cocktail is built with [Sass (SCSS)](https://sass-lang.com/) and [Gulp](https://gulpjs.com/). You can customize your build the way you want. First, clone repository and install dependencies:
 ```bash
@@ -70,8 +75,6 @@ npm install
 ```
 
 Run `npm start` to start gulp task watcher. It will watch for `.scss` files changes and update `cocktail.css` and `cocktail.min.css`.
-
-Run `npm run size` to print out in console `cocktail.min.css` gziped file size.
 
 <br />
 
@@ -103,7 +106,7 @@ Usage examples:
 
 ## Contents
 
-| Flow | Spacing | Appearance | Content |
+| Flow | Spacing | Appearance | Text |
 | - | - | - | - |
 | [Display](#display)<br />[Flex](#flex)<br />[Grid](#grid)<br />[Overflow](#overflow)<br />[Position](#position)<br />[Z-index](#z-index)<br />[Float](#float)<br />[Trigger](#trigger) | [Width](#width)<br />[Height](#height)<br />[Margin](#margin)<br />[Padding](#padding) | [Border](#border)<br />[Background](#background)<br />[Cursor](#cursor)<br />[Hover](#hover) | [Font](#font)<br />[Text](#text)<br />[Color](#color)<br /> |
 
