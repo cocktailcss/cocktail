@@ -12,6 +12,20 @@
   }
 }
 
+@each $nameSizeSuffix, $valueSizeSuffix in $gridSpanList {
+  .grid-column-start-#{$nameSizeSuffix} {
+    grid-column-start: $nameSizeSuffix;
+    @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList
+    {
+      &--#{$nameBreakpointSuffix} {
+        @include respondTo(#{$valueBreakpointSuffix}) {
+          grid-column-start: $nameSizeSuffix;
+        }
+      }
+    }
+  }
+}
+
 @each $nameSizeSuffix, $valueSizeSuffix in $gridGapList {
   .grid-column-gap-#{$nameSizeSuffix} {
     grid-column-gap: $valueSizeSuffix;

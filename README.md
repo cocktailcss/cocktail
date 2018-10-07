@@ -28,7 +28,7 @@ Provided styles are well enough for most basic styling use cases. It helps you d
 - `rem` units for scalable layouts
 - No `!important` rules
 - Mobile-first breakpoints where it matters
-- `5.89 kB` gziped
+- `6.22 kB` gziped
 
 <br />
 
@@ -137,11 +137,13 @@ Usage examples:
 | `justify-center` | `justify-content: center` | :heavy_check_mark: |
 | `justify-between` | `justify-content: space-between` | :heavy_check_mark: |
 | `justify-around` | `justify-content: space-around` | :heavy_check_mark: |
+| | | |
 | `items-start` | `align-items: flex-start` | :heavy_check_mark: |
 | `items-end` | `align-items: flex-end` | :heavy_check_mark: |
 | `items-center` | `align-items: center` | :heavy_check_mark: |
 | `items-baseline` | `align-items: baseline` | :heavy_check_mark: |
 | `items-stretch` | `align-items: stretch` | :heavy_check_mark: |
+| | | |
 | `flex-column` | `flex-direction: column` | :heavy_check_mark: |
 | `flex-row` | `flex-direction: row` | :heavy_check_mark: |
 | `flex-wrap` | `flex-wrap: wrap` | :heavy_check_mark: |
@@ -149,6 +151,7 @@ Usage examples:
 | `flex-wrap-reverse` | `flex-wrap: wrap-reverse` | :heavy_check_mark: |
 | `flex-column-reverse` | `flex-direction: column-reverse` | :heavy_check_mark: |
 | `flex-row-reverse` | `flex-direction: row-reverse` | :heavy_check_mark: |
+| | | |
 | `flex-no-grow` | `flex-grow: 0` | :heavy_check_mark: |
 | `flex-grow` | `flex-grow: 1` | :heavy_check_mark: |
 | `flex-no-shrink` | `flex-shrink: 0` | :heavy_check_mark: |
@@ -175,6 +178,20 @@ Usage examples:
 | `grid-column-10` | `grid-column: span 10 / span 10` | :heavy_check_mark: |
 | `grid-column-11` | `grid-column: span 11 / span 11` | :heavy_check_mark: |
 | `grid-column-12` | `grid-column: span 12 / span 12` | :heavy_check_mark: |
+| | | |
+| `grid-column-start-1` | `grid-column-start: 1` | :heavy_check_mark: |
+| `grid-column-start-2` | `grid-column-start: 2` | :heavy_check_mark: |
+| `grid-column-start-3` | `grid-column-start: 3` | :heavy_check_mark: |
+| `grid-column-start-4` | `grid-column-start: 4` | :heavy_check_mark: |
+| `grid-column-start-5` | `grid-column-start: 5` | :heavy_check_mark: |
+| `grid-column-start-6` | `grid-column-start: 6` | :heavy_check_mark: |
+| `grid-column-start-7` | `grid-column-start: 7` | :heavy_check_mark: |
+| `grid-column-start-8` | `grid-column-start: 8` | :heavy_check_mark: |
+| `grid-column-start-9` | `grid-column-start: 9` | :heavy_check_mark: |
+| `grid-column-start-10` | `grid-column-start: 10` | :heavy_check_mark: |
+| `grid-column-start-11` | `grid-column-start: 11` | :heavy_check_mark: |
+| `grid-column-start-12` | `grid-column-start: 12` | :heavy_check_mark: |
+| | | |
 | `grid-column-gap-1` | `grid-column-gap: 0.25rem` | :heavy_check_mark: |
 | `grid-column-gap-2` | `grid-column-gap: 0.5rem` | :heavy_check_mark: |
 | `grid-column-gap-3` | `grid-column-gap: 1rem` | :heavy_check_mark: |
@@ -183,6 +200,7 @@ Usage examples:
 | `grid-column-gap-6` | `grid-column-gap: 4rem` | :heavy_check_mark: |
 | `grid-column-gap-7` | `grid-column-gap: 5rem` | :heavy_check_mark: |
 | `grid-column-gap-8` | `grid-column-gap: 6rem` | :heavy_check_mark: |
+| | | |
 | `grid-row-gap-1` | `grid-row-gap: 0.25rem` | :heavy_check_mark: |
 | `grid-row-gap-2` | `grid-row-gap: 0.5rem` | :heavy_check_mark: |
 | `grid-row-gap-3` | `grid-row-gap: 1rem` | :heavy_check_mark: |
@@ -191,6 +209,7 @@ Usage examples:
 | `grid-row-gap-6` | `grid-row-gap: 4rem` | :heavy_check_mark: |
 | `grid-row-gap-7` | `grid-row-gap: 5rem` | :heavy_check_mark: |
 | `grid-row-gap-8` | `grid-row-gap: 6rem` | :heavy_check_mark: |
+| | | |
 | `grid-gap-1` | `grid-gap: 0.25rem` | :heavy_check_mark: |
 | `grid-gap-2` | `grid-gap: 0.5rem` | :heavy_check_mark: |
 | `grid-gap-3` | `grid-gap: 1rem` | :heavy_check_mark: |
