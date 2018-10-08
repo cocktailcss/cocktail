@@ -1,6 +1,6 @@
 $i: 1;
 @while $i <= 3 {
-  .z-#{$i} {
+  .z-index-#{$i} {
     z-index: #{$i};
   }
   $i: $i + 1;
