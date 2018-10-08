@@ -426,7 +426,8 @@
   display: block;
 }
 
-.toggle-hover .hover-content {
+.hover-trigger:hover .hover-content,
+.hover-trigger:focus .hover-content {
   display: block;
 }
 

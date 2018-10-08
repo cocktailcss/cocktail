@@ -28,7 +28,7 @@ Provided styles are well enough for most basic styling use cases. It helps you d
 - `rem` units for scalable layouts
 - No `!important` rules
 - Mobile-first breakpoints where it matters
-- `6.22 kB` gziped
+- `6.23 kB` gziped
 
 <br />
 
@@ -49,14 +49,14 @@ Link Cocktail CSS stylesheet in your project before all other stylesheets with o
 The latest minified production ready stylesheet is available via https://unpkg.com/cocktailcss:
 ```html
 <head>
-	<link rel="stylesheet" href="https://unpkg.com/cocktailcss">
+  <link rel="stylesheet" href="https://unpkg.com/cocktailcss">
 </head>
 ```
 ## Download
 Download [`cocktail.css`](https://raw.githubusercontent.com/lyutkin/cocktailcss/master/cocktail.css) or minified production ready [`cocktail.min.css`](https://raw.githubusercontent.com/lyutkin/cocktailcss/master/cocktail.min.css). Put it in your project and link to it:
 ```html
 <head>
-	<link rel="stylesheet" href="style/cocktail.min.css">
+  <link rel="stylesheet" href="style/cocktail.min.css">
 </head>
 ```
 
@@ -294,14 +294,15 @@ Usage examples:
   ```css
 /*1*/
 .toggle-trigger:checked ~ .toggle-content {
-	display: block;
+  display: block;
 }
  ```
 
   ```css
 /*2*/
-.hover-trigger:hover .hover-content {
-	display: block;
+.hover-trigger:hover .hover-content,
+.hover-trigger:focus .hover-content {
+  display: block;
 }
  ```
 
@@ -510,11 +511,11 @@ Usage examples:
 /*1*/
 .hover-dim:hover,
 .hover-dim:focus {
-	opacity: 0.75;
+  opacity: 0.75;
 }
 
 .hover-dim:active {
-	opacity: 1;
+  opacity: 1;
 }
  ```
 
@@ -522,11 +523,11 @@ Usage examples:
 /*2*/
 .hover-invert:hover,
 .hover-invert:focus {
-	filter: invert(100%);
+  filter: invert(100%);
 }
 
 .hover-dim:active {
-	filter: none;
+  filter: none;
 }
  ```
 
@@ -586,9 +587,9 @@ Usage examples:
 ```css
 /*1*/
 .text-trunc {
-	white-space: nowrap;
-	overflow: hidden;
-	text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
  ```
 

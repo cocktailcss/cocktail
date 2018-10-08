@@ -4,8 +4,11 @@
   }
 }
 
-.toggle-hover {
-  .hover-content {
-    display: block;
+.hover-trigger {
+  &:hover,
+  &:focus {
+    .hover-content {
+      display: block;
+    }
   }
 }
