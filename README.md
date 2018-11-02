@@ -28,7 +28,7 @@ Provided styles are well enough for most basic styling use cases. It helps you d
 - `rem` units for scalable layouts
 - No `!important` rules
 - Mobile-first breakpoints where it matters
-- `6.23 kB` gziped
+- `6.61 kB` gziped
 
 <br />
 
@@ -88,7 +88,7 @@ Classes that support mobile-first breakpoints are marked with :heavy_check_mark:
 | - | - | - |
 | Smartphone | `sm` | `@media screen and (min-width: 576px)` |
 | Tablet | `md` | `@media screen and (min-width: 768px)` |
-| Netbooks | `lg` | `@media screen and (min-width: 992px)` |
+| Netbook | `lg` | `@media screen and (min-width: 992px)` |
 | Notebook | `xl` | `@media screen and (min-width: 1200px)` |
 | Desktop | `xxl` | `@media screen and (min-width: 1600px)` |
 
@@ -98,9 +98,9 @@ Usage examples:
 
 | Class  | Description |
 | - | - |
-| `flex--xxl` | `1600px` and above, set `display: flex`  |
-| `hidden--md` | `768px` and above, set `display: none`  |
-| `text-left--lg` | `992px` and above, set `text-align: left`  |
+| `flex--xxl` | `1600px` and above set `display: flex`  |
+| `hidden--md` | `768px` and above set `display: none`  |
+| `text-left--lg` | `992px` and above set `text-align: left`  |
 
 <br />
 
@@ -108,7 +108,7 @@ Usage examples:
 
 | Flow | Spacing | Appearance | Text |
 | - | - | - | - |
-| [Display](#display)<br />[Flex](#flex)<br />[Grid](#grid)<br />[Overflow](#overflow)<br />[Position](#position)<br />[Z-index](#z-index)<br />[Float](#float)<br />[Trigger](#trigger) | [Width](#width)<br />[Height](#height)<br />[Margin](#margin)<br />[Padding](#padding) | [Border](#border)<br />[Background](#background)<br />[Cursor](#cursor)<br />[Hover](#hover) | [Font](#font)<br />[Text](#text)<br />[Color](#color)<br /> |
+| [Display](#display)<br />[Flex](#flex)<br />[Grid](#grid)<br />[Overflow](#overflow)<br />[Position](#position)<br />[Z-index](#z-index)<br />[Float](#float)<br />[Trigger](#trigger) | [Width](#width)<br />[Height](#height)<br />[Margin](#margin)<br />[Padding](#padding) | [Border](#border)<br />[Background](#background)<br />[Cursor](#cursor) | [Font](#font)<br />[Text](#text)<br />[Color](#color)<br /> |
 
 <br />
 
@@ -192,6 +192,7 @@ Usage examples:
 | `grid-column-start-11` | `grid-column-start: 11` | :heavy_check_mark: |
 | `grid-column-start-12` | `grid-column-start: 12` | :heavy_check_mark: |
 | | | |
+| `grid-column-gap-0` | `grid-column-gap: 0` | :heavy_check_mark: |
 | `grid-column-gap-1` | `grid-column-gap: 0.25rem` | :heavy_check_mark: |
 | `grid-column-gap-2` | `grid-column-gap: 0.5rem` | :heavy_check_mark: |
 | `grid-column-gap-3` | `grid-column-gap: 1rem` | :heavy_check_mark: |
@@ -199,8 +200,8 @@ Usage examples:
 | `grid-column-gap-5` | `grid-column-gap: 3rem` | :heavy_check_mark: |
 | `grid-column-gap-6` | `grid-column-gap: 4rem` | :heavy_check_mark: |
 | `grid-column-gap-7` | `grid-column-gap: 5rem` | :heavy_check_mark: |
-| `grid-column-gap-8` | `grid-column-gap: 6rem` | :heavy_check_mark: |
 | | | |
+| `grid-row-gap-0` | `grid-row-gap: 0` | :heavy_check_mark: |
 | `grid-row-gap-1` | `grid-row-gap: 0.25rem` | :heavy_check_mark: |
 | `grid-row-gap-2` | `grid-row-gap: 0.5rem` | :heavy_check_mark: |
 | `grid-row-gap-3` | `grid-row-gap: 1rem` | :heavy_check_mark: |
@@ -208,8 +209,8 @@ Usage examples:
 | `grid-row-gap-5` | `grid-row-gap: 3rem` | :heavy_check_mark: |
 | `grid-row-gap-6` | `grid-row-gap: 4rem` | :heavy_check_mark: |
 | `grid-row-gap-7` | `grid-row-gap: 5rem` | :heavy_check_mark: |
-| `grid-row-gap-8` | `grid-row-gap: 6rem` | :heavy_check_mark: |
 | | | |
+| `grid-gap-0` | `grid-gap: 0` | :heavy_check_mark: |
 | `grid-gap-1` | `grid-gap: 0.25rem` | :heavy_check_mark: |
 | `grid-gap-2` | `grid-gap: 0.5rem` | :heavy_check_mark: |
 | `grid-gap-3` | `grid-gap: 1rem` | :heavy_check_mark: |
@@ -217,7 +218,6 @@ Usage examples:
 | `grid-gap-5` | `grid-gap: 3rem` | :heavy_check_mark: |
 | `grid-gap-6` | `grid-gap: 4rem` | :heavy_check_mark: |
 | `grid-gap-7` | `grid-gap: 5rem` | :heavy_check_mark: |
-| `grid-gap-8` | `grid-gap: 6rem` | :heavy_check_mark: |
 
 <br />
 
@@ -228,10 +228,6 @@ Usage examples:
 | - | - | :-: |
 | `overflow-hidden` | `overflow: hidden` | :heavy_check_mark: |
 | `overflow-auto` | `overflow: auto` | :heavy_check_mark: |
-| `overflow-x-hidden` | `overflow-x: hidden` | :heavy_check_mark: |
-| `overflow-x-auto` | `overflow-x: auto` | :heavy_check_mark: |
-| `overflow-y-hidden` | `overflow-y: hidden` | :heavy_check_mark: |
-| `overflow-y-auto` | `overflow-y: auto` | :heavy_check_mark: |
 
 <br />
 
@@ -291,20 +287,20 @@ Usage examples:
 | `toggle-trigger` | Toggle display for `toggle-content` general sibling <sup>1</sup> | :x: |
 | `hover-trigger` | Hover display for `hover-content` child <sup>2</sup> | :x: |
 
-  ```css
+```css
 /*1*/
 .toggle-trigger:checked ~ .toggle-content {
   display: block;
 }
- ```
+```
 
-  ```css
+```css
 /*2*/
 .hover-trigger:hover .hover-content,
 .hover-trigger:focus .hover-content {
   display: block;
 }
- ```
+```
 
 <br />
 
@@ -384,6 +380,14 @@ Usage examples:
 | `margin-y-5` | `margin-top: 4rem`<br />`margin-bottom: 4rem` | :heavy_check_mark: |
 | `margin-y-6` | `margin-top: 8rem`<br />`margin-bottom: 8rem` | :heavy_check_mark: |
 | | | |
+| `margin-0` | `margin-top: 0`<br />`margin-right: 0`<br />`margin-bottom: 0`<br/>`margin-left: 0` | :heavy_check_mark: |
+| `margin-1` | `margin-top: 0.25rem`<br />`margin-right: 0.25rem`<br />`margin-bottom: 0.25rem`<br/>`margin-left: 0.25rem` | :heavy_check_mark: |
+| `margin-2` | `margin-top: 0.5rem`<br />`margin-right: 0.5rem`<br />`margin-bottom: 0.5rem`<br/>`margin-left: 0.5rem` | :heavy_check_mark: |
+| `margin-3` | `margin-top: 1rem`<br />`margin-right: 1rem`<br />`margin-bottom: 1rem`<br/>`margin-left: 1rem` | :heavy_check_mark: |
+| `margin-4` | `margin-top: 2rem`<br />`margin-right: 2rem`<br />`margin-bottom: 2rem`<br/>`margin-left: 2rem` | :heavy_check_mark: |
+| `margin-5` | `margin-top: 4rem`<br />`margin-right: 4rem`<br />`margin-bottom: 4rem`<br/>`margin-left: 4rem` | :heavy_check_mark: |
+| `margin-6` | `margin-top: 8rem`<br />`margin-right: 8rem`<br />`margin-bottom: 8rem`<br/>`margin-left: 8rem` | :heavy_check_mark: |
+| | | |
 | `margin-x-auto` | `margin-left: auto`<br />`margin-right: auto` | :heavy_check_mark: |
 | `margin-y-auto` | `margin-top: auto`<br />`margin-bottom: auto` | :heavy_check_mark: |
 
@@ -441,6 +445,14 @@ Usage examples:
 | `padding-y-4` | `padding-top: 2rem`<br />`padding-bottom: 2rem` | :heavy_check_mark: |
 | `padding-y-5` | `padding-top: 4rem`<br />`padding-bottom: 4rem` | :heavy_check_mark: |
 | `padding-y-6` | `padding-top: 8rem`<br />`padding-bottom: 8rem` | :heavy_check_mark: |
+| | | |
+| `padding-0` | `padding-top: 0`<br />`padding-right: 0`<br />`padding-bottom: 0`<br/>`padding-left: 0` | :heavy_check_mark: |
+| `padding-1` | `padding-top: 0.25rem`<br />`padding-right: 0.25rem`<br />`padding-bottom: 0.25rem`<br/>`padding-left: 0.25rem` | :heavy_check_mark: |
+| `padding-2` | `padding-top: 0.5rem`<br />`padding-right: 0.5rem`<br />`padding-bottom: 0.5rem`<br/>`padding-left: 0.5rem` | :heavy_check_mark: |
+| `padding-3` | `padding-top: 1rem`<br />`padding-right: 1rem`<br />`padding-bottom: 1rem`<br/>`padding-left: 1rem` | :heavy_check_mark: |
+| `padding-4` | `padding-top: 2rem`<br />`padding-right: 2rem`<br />`padding-bottom: 2rem`<br/>`padding-left: 2rem` | :heavy_check_mark: |
+| `padding-5` | `padding-top: 4rem`<br />`padding-right: 4rem`<br />`padding-bottom: 4rem`<br/>`padding-left: 4rem` | :heavy_check_mark: |
+| `padding-6` | `padding-top: 8rem`<br />`padding-right: 8rem`<br />`padding-bottom: 8rem`<br/>`padding-left: 8rem` | :heavy_check_mark: |
 
 <br />
 
@@ -499,40 +511,6 @@ Usage examples:
 
 <br />
 
-### Hover
-[↑ Back to contents](#contents)
-
-| Class  | Style  | Breakpoint support |
-| - | - | :-: |
-| `hover-dim` | Change opacity on hover <sup>1</sup> | :x: |
-| `hover-invert` | Invert colors on hover <sup>2</sup> | :x: |
-
-  ```css
-/*1*/
-.hover-dim:hover,
-.hover-dim:focus {
-  opacity: 0.75;
-}
-
-.hover-dim:active {
-  opacity: 1;
-}
- ```
-
-  ```css
-/*2*/
-.hover-invert:hover,
-.hover-invert:focus {
-  filter: invert(100%);
-}
-
-.hover-dim:active {
-  filter: none;
-}
- ```
-
-<br />
-
 ### Font
 [↑ Back to contents](#contents)
 
@@ -540,7 +518,7 @@ Usage examples:
 | - | - | :-: |
 | `font-xs` | `font-size: 0.75rem` | :heavy_check_mark: |
 | `font-sm` | `font-size: 0.875rem` | :heavy_check_mark: |
-| `font-normal` | `font-size: 1rem` | :heavy_check_mark: |
+| `font-nl` | `font-size: 1rem` | :heavy_check_mark: |
 | `font-lg` | `font-size: 1.25rem` | :heavy_check_mark: |
 | `font-xl` | `font-size: 1.5rem` | :heavy_check_mark: |
 | `font-2xl` | `font-size: 1.875rem` | :heavy_check_mark: |
@@ -549,8 +527,10 @@ Usage examples:
 | `font-5xl` | `font-size: 4rem` | :heavy_check_mark: |
 | | | |
 | `font-light` | `font-weight: 300` | :x: |
+| `font-normal` | `font-weight: normal` | :x: |
 | `font-medium` | `font-weight: 500` | :x: |
 | `font-bold` | `font-weight: bold` | :x: |
+| `font-black` | `font-weight: 900` | :x: |
 | | | |
 | `font-italic` | `font-style: italic` | :x: |
 
@@ -572,26 +552,16 @@ Usage examples:
 | | | |
 | `text-nowrap` | `white-space: nowrap` | :x: |
 | `text-break` | `word-break: break-all` | :x: |
+| `text-dots` | `text-overflow: ellipsis` | :x: |
 | | | |
 | `text-tight` | `line-height: 1.25` | :x: |
-| `text-normal` | `line-height: 1.5` | :x: |
+| `text-average` | `line-height: 1.5` | :x: |
 | `text-loose` | `line-height: 2` | :x: |
 | | | |
 | `text-upper` | `text-transform: uppercase` | :x: |
 | `text-lower` | `text-transform: lowercase` | :x: |
 | | | |
-| `text-trunc` | Show trailing dots on container overflow <sup>1</sup> | :x: |
-| | | |
 | `no-list` | `list-style: none` | :x: |
-
-```css
-/*1*/
-.text-trunc {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
- ```
 
 <br />
 
@@ -602,10 +572,7 @@ Usage examples:
 | - | - | :-: |
 | `color-white` | `color: white` | :x: |
 | `color-black` | `color: black` | :x: |
-| `color-red` | `color: red` | :x: |
-| `color-green` | `color: green` | :x: |
-| `color-blue` | `color: blue` | :x: |
 
 # License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

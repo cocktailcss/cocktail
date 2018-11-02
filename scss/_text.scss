@@ -55,11 +55,15 @@
   word-break: break-all;
 }
 
+.text-dots {
+  text-overflow: ellipsis;
+}
+
 .text-tight {
   line-height: 1.25;
 }
 
-.text-normal {
+.text-average {
   line-height: 1.5;
 }
 
@@ -73,12 +77,6 @@
 
 .text-lower {
   text-transform: lowercase;
-}
-
-.text-trunc {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
 }
 
 .no-list {

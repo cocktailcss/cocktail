@@ -20,7 +20,7 @@
   }
 }
 
-.font-normal {
+.font-nl {
   font-size: 1rem;
   @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList {
     &--#{$nameBreakpointSuffix} {
@@ -101,12 +101,20 @@
   font-weight: 300;
 }
 
+.font-normal {
+  font-weight: normal;
+}
+
 .font-medium {
   font-weight: 500;
 }
 
 .font-bold {
   font-weight: bold;
+}
+
+.font-black {
+  font-weight: 900;
 }
 
 .font-italic {

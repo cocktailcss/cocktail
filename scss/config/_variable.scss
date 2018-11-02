@@ -1,9 +1,23 @@
+$smartphone: 576px;
+$tablet: 768px;
+$netbook: 992px;
+$notebook: 1200px;
+$desktop: 1600px;
+
+$breakpointSuffixWidthList: (
+  sm: $smartphone,
+  md: $tablet,
+  lg: $netbook,
+  xl: $notebook,
+  xxl: $desktop
+);
+
 $breakpointList: (
-  smartphone: 576px,
-  tablet: 768px,
-  netbook: 992px,
-  notebook: 1200px,
-  desktop: 1600px
+  smartphone: $smartphone,
+  tablet: $tablet,
+  netbook: $netbook,
+  notebook: $notebook,
+  desktop: $desktop
 );
 
 $breakpointSuffixList: (
@@ -25,14 +39,14 @@ $sizeList: (
 );
 
 $gridGapList: (
+  0: 0,
   1: 0.25rem,
   2: 0.5rem,
   3: 1rem,
   4: 2rem,
   5: 3rem,
   6: 4rem,
-  7: 5rem,
-  8: 6rem
+  7: 5rem
 );
 
 $gridSpanList: (

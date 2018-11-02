@@ -1,112 +1,78 @@
 @each $nameSizeSuffix, $valueSizeSuffix in $sizeList {
-  .margin-top-#{$nameSizeSuffix} {
+  .margin-top-#{$nameSizeSuffix},
+  .margin-y-#{$nameSizeSuffix},
+  .margin-#{$nameSizeSuffix} {
     margin-top: $valueSizeSuffix;
-    @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList
-    {
-      &--#{$nameBreakpointSuffix} {
-        @include respondTo(#{$valueBreakpointSuffix}) {
-          margin-top: $valueSizeSuffix;
-        }
+  }
+}
+
+@each $breakpointName, $breakpointWidth in $breakpointSuffixWidthList {
+  @media screen and (min-width: $breakpointWidth) {
+    @each $nameSizeSuffix, $valueSizeSuffix in $sizeList {
+      .margin-top-#{$nameSizeSuffix}--#{$breakpointName},
+      .margin-y-#{$nameSizeSuffix}--#{$breakpointName},
+      .margin-#{$nameSizeSuffix}--#{$breakpointName} {
+        margin-top: $valueSizeSuffix;
       }
     }
   }
 }
 
 @each $nameSizeSuffix, $valueSizeSuffix in $sizeList {
-  .margin-right-#{$nameSizeSuffix} {
+  .margin-right-#{$nameSizeSuffix},
+  .margin-x-#{$nameSizeSuffix},
+  .margin-#{$nameSizeSuffix} {
     margin-right: $valueSizeSuffix;
-    @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList
-    {
-      &--#{$nameBreakpointSuffix} {
-        @include respondTo(#{$valueBreakpointSuffix}) {
-          margin-right: $valueSizeSuffix;
-        }
+  }
+}
+
+@each $breakpointName, $breakpointWidth in $breakpointSuffixWidthList {
+  @media screen and (min-width: $breakpointWidth) {
+    @each $nameSizeSuffix, $valueSizeSuffix in $sizeList {
+      .margin-right-#{$nameSizeSuffix}--#{$breakpointName},
+      .margin-x-#{$nameSizeSuffix}--#{$breakpointName},
+      .margin-#{$nameSizeSuffix}--#{$breakpointName} {
+        margin-right: $valueSizeSuffix;
       }
     }
   }
 }
 
 @each $nameSizeSuffix, $valueSizeSuffix in $sizeList {
-  .margin-bottom-#{$nameSizeSuffix} {
+  .margin-bottom-#{$nameSizeSuffix},
+  .margin-y-#{$nameSizeSuffix},
+  .margin-#{$nameSizeSuffix} {
     margin-bottom: $valueSizeSuffix;
-    @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList
-    {
-      &--#{$nameBreakpointSuffix} {
-        @include respondTo(#{$valueBreakpointSuffix}) {
-          margin-bottom: $valueSizeSuffix;
-        }
+  }
+}
+
+@each $breakpointName, $breakpointWidth in $breakpointSuffixWidthList {
+  @media screen and (min-width: $breakpointWidth) {
+    @each $nameSizeSuffix, $valueSizeSuffix in $sizeList {
+      .margin-bottom-#{$nameSizeSuffix}--#{$breakpointName},
+      .margin-y-#{$nameSizeSuffix}--#{$breakpointName},
+      .margin-#{$nameSizeSuffix}--#{$breakpointName} {
+        margin-bottom: $valueSizeSuffix;
       }
     }
   }
 }
 
 @each $nameSizeSuffix, $valueSizeSuffix in $sizeList {
-  .margin-left-#{$nameSizeSuffix} {
+  .margin-left-#{$nameSizeSuffix},
+  .margin-x-#{$nameSizeSuffix},
+  .margin-#{$nameSizeSuffix} {
     margin-left: $valueSizeSuffix;
-    @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList
-    {
-      &--#{$nameBreakpointSuffix} {
-        @include respondTo(#{$valueBreakpointSuffix}) {
-          margin-left: $valueSizeSuffix;
-        }
-      }
-    }
   }
 }
 
-@each $nameSizeSuffix, $valueSizeSuffix in $sizeList {
-  .margin-x-#{$nameSizeSuffix} {
-    margin-left: $valueSizeSuffix;
-    margin-right: $valueSizeSuffix;
-    @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList
-    {
-      &--#{$nameBreakpointSuffix} {
-        @include respondTo(#{$valueBreakpointSuffix}) {
-          margin-left: $valueSizeSuffix;
-          margin-right: $valueSizeSuffix;
-        }
-      }
-    }
-  }
-}
-
-@each $nameSizeSuffix, $valueSizeSuffix in $sizeList {
-  .margin-y-#{$nameSizeSuffix} {
-    margin-top: $valueSizeSuffix;
-    margin-bottom: $valueSizeSuffix;
-    @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList
-    {
-      &--#{$nameBreakpointSuffix} {
-        @include respondTo(#{$valueBreakpointSuffix}) {
-          margin-top: $valueSizeSuffix;
-          margin-bottom: $valueSizeSuffix;
-        }
-      }
-    }
-  }
-}
-
-.margin-x-auto {
-  margin-left: auto;
-  margin-right: auto;
-  @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList {
-    &--#{$nameBreakpointSuffix} {
-      @include respondTo(#{$valueBreakpointSuffix}) {
-        margin-left: auto;
-        margin-right: auto;
-      }
-    }
-  }
-}
-
-.margin-y-auto {
-  margin-top: auto;
-  margin-bottom: auto;
-  @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList {
-    &--#{$nameBreakpointSuffix} {
-      @include respondTo(#{$valueBreakpointSuffix}) {
-        margin-top: auto;
-        margin-bottom: auto;
+@each $breakpointName, $breakpointWidth in $breakpointSuffixWidthList {
+  @media screen and (min-width: $breakpointWidth) {
+    @each $nameSizeSuffix, $valueSizeSuffix in $sizeList {
+      .margin-left-#{$nameSizeSuffix}--#{$breakpointName},
+      .margin-x-#{$nameSizeSuffix}--#{$breakpointName},
+      .margin-#{$nameSizeSuffix}--#{$breakpointName} {
+        margin-left: $valueSizeSuffix;
       }
     }
   }
