@@ -53,7 +53,7 @@ The latest minified production ready stylesheet is available via https://unpkg.c
 </head>
 ```
 ## Download
-Download [`cocktail.css`](https://raw.githubusercontent.com/lyutkin/cocktailcss/master/cocktail.css) or minified production ready [`cocktail.min.css`](https://raw.githubusercontent.com/lyutkin/cocktailcss/master/cocktail.min.css). Put it in your project and link to it:
+Download [`cocktail.css`](https://raw.githubusercontent.com/cocktailcss/cocktail/master/cocktail.css) or minified production ready [`cocktail.min.css`](https://raw.githubusercontent.com/cocktailcss/cocktail/master/cocktail.min.css). Put it in your project and link to it:
 ```html
 <head>
   <link rel="stylesheet" href="style/cocktail.min.css">
@@ -69,8 +69,8 @@ Install package with `npm install cocktailcss`.
 
 Cocktail is built with [Sass (SCSS)](https://sass-lang.com/) and [Gulp](https://gulpjs.com/). You can customize your build the way you want. First, clone repository and install dependencies:
 ```bash
-git clone https://github.com/lyutkin/cocktailcss.git
-cd cocktailcss
+git clone https://github.com/cocktailcss/cocktail.git
+cd cocktail
 npm install
 ```
 
