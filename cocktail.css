@@ -1690,43 +1690,43 @@
   .padding-bottom-0--sm,
   .padding-y-0--sm,
   .padding-0--sm {
-    padding-right: 0;
+    padding-bottom: 0;
   }
 
   .padding-bottom-1--sm,
   .padding-y-1--sm,
   .padding-1--sm {
-    padding-right: 0.25rem;
+    padding-bottom: 0.25rem;
   }
 
   .padding-bottom-2--sm,
   .padding-y-2--sm,
   .padding-2--sm {
-    padding-right: 0.5rem;
+    padding-bottom: 0.5rem;
   }
 
   .padding-bottom-3--sm,
   .padding-y-3--sm,
   .padding-3--sm {
-    padding-right: 1rem;
+    padding-bottom: 1rem;
   }
 
   .padding-bottom-4--sm,
   .padding-y-4--sm,
   .padding-4--sm {
-    padding-right: 2rem;
+    padding-bottom: 2rem;
   }
 
   .padding-bottom-5--sm,
   .padding-y-5--sm,
   .padding-5--sm {
-    padding-right: 4rem;
+    padding-bottom: 4rem;
   }
 
   .padding-bottom-6--sm,
   .padding-y-6--sm,
   .padding-6--sm {
-    padding-right: 8rem;
+    padding-bottom: 8rem;
   }
 
   .padding-left-0--sm,
@@ -2492,43 +2492,43 @@
   .padding-bottom-0--md,
   .padding-y-0--md,
   .padding-0--md {
-    padding-right: 0;
+    padding-bottom: 0;
   }
 
   .padding-bottom-1--md,
   .padding-y-1--md,
   .padding-1--md {
-    padding-right: 0.25rem;
+    padding-bottom: 0.25rem;
   }
 
   .padding-bottom-2--md,
   .padding-y-2--md,
   .padding-2--md {
-    padding-right: 0.5rem;
+    padding-bottom: 0.5rem;
   }
 
   .padding-bottom-3--md,
   .padding-y-3--md,
   .padding-3--md {
-    padding-right: 1rem;
+    padding-bottom: 1rem;
   }
 
   .padding-bottom-4--md,
   .padding-y-4--md,
   .padding-4--md {
-    padding-right: 2rem;
+    padding-bottom: 2rem;
   }
 
   .padding-bottom-5--md,
   .padding-y-5--md,
   .padding-5--md {
-    padding-right: 4rem;
+    padding-bottom: 4rem;
   }
 
   .padding-bottom-6--md,
   .padding-y-6--md,
   .padding-6--md {
-    padding-right: 8rem;
+    padding-bottom: 8rem;
   }
 
   .padding-left-0--md,
@@ -3294,43 +3294,43 @@
   .padding-bottom-0--lg,
   .padding-y-0--lg,
   .padding-0--lg {
-    padding-right: 0;
+    padding-bottom: 0;
   }
 
   .padding-bottom-1--lg,
   .padding-y-1--lg,
   .padding-1--lg {
-    padding-right: 0.25rem;
+    padding-bottom: 0.25rem;
   }
 
   .padding-bottom-2--lg,
   .padding-y-2--lg,
   .padding-2--lg {
-    padding-right: 0.5rem;
+    padding-bottom: 0.5rem;
   }
 
   .padding-bottom-3--lg,
   .padding-y-3--lg,
   .padding-3--lg {
-    padding-right: 1rem;
+    padding-bottom: 1rem;
   }
 
   .padding-bottom-4--lg,
   .padding-y-4--lg,
   .padding-4--lg {
-    padding-right: 2rem;
+    padding-bottom: 2rem;
   }
 
   .padding-bottom-5--lg,
   .padding-y-5--lg,
   .padding-5--lg {
-    padding-right: 4rem;
+    padding-bottom: 4rem;
   }
 
   .padding-bottom-6--lg,
   .padding-y-6--lg,
   .padding-6--lg {
-    padding-right: 8rem;
+    padding-bottom: 8rem;
   }
 
   .padding-left-0--lg,
@@ -4096,43 +4096,43 @@
   .padding-bottom-0--xl,
   .padding-y-0--xl,
   .padding-0--xl {
-    padding-right: 0;
+    padding-bottom: 0;
   }
 
   .padding-bottom-1--xl,
   .padding-y-1--xl,
   .padding-1--xl {
-    padding-right: 0.25rem;
+    padding-bottom: 0.25rem;
   }
 
   .padding-bottom-2--xl,
   .padding-y-2--xl,
   .padding-2--xl {
-    padding-right: 0.5rem;
+    padding-bottom: 0.5rem;
   }
 
   .padding-bottom-3--xl,
   .padding-y-3--xl,
   .padding-3--xl {
-    padding-right: 1rem;
+    padding-bottom: 1rem;
   }
 
   .padding-bottom-4--xl,
   .padding-y-4--xl,
   .padding-4--xl {
-    padding-right: 2rem;
+    padding-bottom: 2rem;
   }
 
   .padding-bottom-5--xl,
   .padding-y-5--xl,
   .padding-5--xl {
-    padding-right: 4rem;
+    padding-bottom: 4rem;
   }
 
   .padding-bottom-6--xl,
   .padding-y-6--xl,
   .padding-6--xl {
-    padding-right: 8rem;
+    padding-bottom: 8rem;
   }
 
   .padding-left-0--xl,
@@ -4898,43 +4898,43 @@
   .padding-bottom-0--xxl,
   .padding-y-0--xxl,
   .padding-0--xxl {
-    padding-right: 0;
+    padding-bottom: 0;
   }
 
   .padding-bottom-1--xxl,
   .padding-y-1--xxl,
   .padding-1--xxl {
-    padding-right: 0.25rem;
+    padding-bottom: 0.25rem;
   }
 
   .padding-bottom-2--xxl,
   .padding-y-2--xxl,
   .padding-2--xxl {
-    padding-right: 0.5rem;
+    padding-bottom: 0.5rem;
   }
 
   .padding-bottom-3--xxl,
   .padding-y-3--xxl,
   .padding-3--xxl {
-    padding-right: 1rem;
+    padding-bottom: 1rem;
   }
 
   .padding-bottom-4--xxl,
   .padding-y-4--xxl,
   .padding-4--xxl {
-    padding-right: 2rem;
+    padding-bottom: 2rem;
   }
 
   .padding-bottom-5--xxl,
   .padding-y-5--xxl,
   .padding-5--xxl {
-    padding-right: 4rem;
+    padding-bottom: 4rem;
   }
 
   .padding-bottom-6--xxl,
   .padding-y-6--xxl,
   .padding-6--xxl {
-    padding-right: 8rem;
+    padding-bottom: 8rem;
   }
 
   .padding-left-0--xxl,

@@ -52,7 +52,7 @@
       .padding-bottom-#{$nameSizeSuffix}--#{$breakpointName},
       .padding-y-#{$nameSizeSuffix}--#{$breakpointName},
       .padding-#{$nameSizeSuffix}--#{$breakpointName} {
-        padding-right: $valueSizeSuffix;
+        padding-bottom: $valueSizeSuffix;
       }
     }
   }
