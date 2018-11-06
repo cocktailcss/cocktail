@@ -28,7 +28,7 @@ Provided styles are well enough for most basic styling use cases. It helps you d
 - `rem` units for scalable layouts
 - No `!important` rules
 - Mobile-first breakpoints where it matters
-- `6.6 kB` gziped
+- `6.7 kB` gziped
 
 <br />
 
