@@ -1,4 +1,5 @@
-# 🍸 Cocktail
+![logo](logo.png)
+
 [![npm version](https://img.shields.io/npm/v/cocktailcss.svg)](https://www.npmjs.com/package/cocktailcss)
 
 <br />
@@ -13,6 +14,9 @@
 * [Docs](#docs)
   * [Breakpoints](#breakpoints)
   * [📗 Contents](#contents)
+  * [🔎 Explore classes](https://cocktailcss.github.io/docs/)
+  * [💡 Examples](https://cocktailcss.github.io/docs/examples.html)
+* [Reference](#reference)
 * [License](#license)
 
 <br />
@@ -572,6 +576,12 @@ Usage examples:
 | - | - | :-: |
 | `color-white` | `color: white` | :x: |
 | `color-black` | `color: black` | :x: |
+
+# Reference
+
+- Cocktail is heavily inspired by [tachyons](https://tachyons.io/), [tailwind](https://tailwindcss.com/), [basscss](http://basscss.com/) and [blueprint](https://blueprintcss.io/).
+- Svg icon by [Stefan Mihaylov](https://thenounproject.com/jinrocreative/).
+
 
 # License
 
