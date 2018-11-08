@@ -1,4 +1,4 @@
-![logo](logo.png)
+![logo](logo.svg)
 
 [![npm version](https://img.shields.io/npm/v/cocktailcss.svg)](https://www.npmjs.com/package/cocktailcss)
 
