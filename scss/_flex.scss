@@ -152,39 +152,6 @@
   }
 }
 
-.flex-wrap-reverse {
-  flex-wrap: wrap-reverse;
-  @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList {
-    &--#{$nameBreakpointSuffix} {
-      @include respondTo(#{$valueBreakpointSuffix}) {
-        flex-wrap: wrap-reverse;
-      }
-    }
-  }
-}
-
-.flex-column-reverse {
-  flex-direction: column-reverse;
-  @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList {
-    &--#{$nameBreakpointSuffix} {
-      @include respondTo(#{$valueBreakpointSuffix}) {
-        flex-direction: column-reverse;
-      }
-    }
-  }
-}
-
-.flex-row-reverse {
-  flex-direction: row-reverse;
-  @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList {
-    &--#{$nameBreakpointSuffix} {
-      @include respondTo(#{$valueBreakpointSuffix}) {
-        flex-direction: row-reverse;
-      }
-    }
-  }
-}
-
 .flex-no-grow {
   flex-grow: 0;
   @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList {

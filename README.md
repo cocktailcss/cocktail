@@ -32,7 +32,7 @@ Provided styles are well enough for most basic styling use cases. It helps you d
 - `rem` units for scalable layouts
 - No `!important` rules
 - Mobile-first breakpoints where it matters
-- `6.7 kB` gziped
+- `6.1 kB` gziped
 
 <br />
 
@@ -152,9 +152,6 @@ Usage examples:
 | `flex-row` | `flex-direction: row` | :heavy_check_mark: |
 | `flex-wrap` | `flex-wrap: wrap` | :heavy_check_mark: |
 | `flex-nowrap` | `flex-wrap: nowrap` | :heavy_check_mark: |
-| `flex-wrap-reverse` | `flex-wrap: wrap-reverse` | :heavy_check_mark: |
-| `flex-column-reverse` | `flex-direction: column-reverse` | :heavy_check_mark: |
-| `flex-row-reverse` | `flex-direction: row-reverse` | :heavy_check_mark: |
 | | | |
 | `flex-no-grow` | `flex-grow: 0` | :heavy_check_mark: |
 | `flex-grow` | `flex-grow: 1` | :heavy_check_mark: |
@@ -230,8 +227,8 @@ Usage examples:
 
 | Class  | Style  | Breakpoint support |
 | - | - | :-: |
-| `overflow-hidden` | `overflow: hidden` | :heavy_check_mark: |
-| `overflow-auto` | `overflow: auto` | :heavy_check_mark: |
+| `overflow-hidden` | `overflow: hidden` | :x: |
+| `overflow-auto` | `overflow: auto` | :x: |
 
 <br />
 
@@ -240,25 +237,26 @@ Usage examples:
 
 | Class  | Style  | Breakpoint support |
 | - | - | :-: |
-| `relative` | `position: relative` | :heavy_check_mark: |
-| `absolute` | `position: absolute` | :heavy_check_mark: |
-| `fixed` | `position: fixed` | :heavy_check_mark: |
+| `relative` | `position: relative` | :x: |
+| `absolute` | `position: absolute` | :x: |
+| `fixed` | `position: fixed` | :x: |
+| `sticky` | `position: sticky` | :x: |
 | | | |
-| `top-0` | `top: 0` | :heavy_check_mark: |
-| `right-0` | `right: 0` | :heavy_check_mark: |
-| `bottom-0` | `bottom: 0` | :heavy_check_mark: |
-| `left-0` | `left: 0` | :heavy_check_mark: |
+| `top-0` | `top: 0` | :x: |
+| `right-0` | `right: 0` | :x: |
+| `bottom-0` | `bottom: 0` | :x: |
+| `left-0` | `left: 0` | :x: |
 | | | |
-| `top-full` | `top: 100%` | :heavy_check_mark: |
-| `right-full` | `right: 100%` | :heavy_check_mark: |
-| `bottom-full` | `bottom: 100%` | :heavy_check_mark: |
-| `left-full` | `left: 100%` | :heavy_check_mark: |
+| `top-full` | `top: 100%` | :x: |
+| `right-full` | `right: 100%` | :x: |
+| `bottom-full` | `bottom: 100%` | :x: |
+| `left-full` | `left: 100%` | :x: |
 | | | |
-| `fill` | `top: 0`<br />`right: 0`<br />`bottom: 0`<br />`left: 0` | :heavy_check_mark: |
+| `fill` | `top: 0`<br />`right: 0`<br />`bottom: 0`<br />`left: 0` | :x: |
 | | | |
-| `center-x` | `left: 50%`<br />`transform: translateX(-50%)` | :heavy_check_mark: |
-| `center-y` | `top: 50%`<br />`transform: translateY(-50%)` | :heavy_check_mark: |
-| `center` | `top: 50%`<br />`left: 50%`<br />`transform: translate(-50%, -50%)` | :heavy_check_mark: |
+| `center-x` | `left: 50%`<br />`transform: translateX(-50%)` | :x: |
+| `center-y` | `top: 50%`<br />`transform: translateY(-50%)` | :x: |
+| `center` | `top: 50%`<br />`left: 50%`<br />`transform: translate(-50%, -50%)` | :x: |
 
 <br />
 
@@ -313,8 +311,8 @@ Usage examples:
 
 | Class  | Style  | Breakpoint support |
 | - | - | :-: |
-| `max-width-full` | `max-width: 100%` | :heavy_check_mark: |
-| `min-width-full` | `min-width: 100%` | :heavy_check_mark: |
+| `max-width-full` | `max-width: 100%` | :x: |
+| `min-width-full` | `min-width: 100%` | :x: |
 | `width-full` | `width: 100%` | :heavy_check_mark: |
 | `width-auto` | `width: auto` | :heavy_check_mark: |
 
@@ -325,9 +323,9 @@ Usage examples:
 
 | Class  | Style  | Breakpoint support |
 | - | - | :-: |
-| `max-height-full` | `max-height: 100%` | :heavy_check_mark: |
-| `min-height-full` | `min-height: 100%` | :heavy_check_mark: |
-| `height-full` | `height: 100%` | :heavy_check_mark: |
+| `max-height-full` | `max-height: 100%` | :x: |
+| `min-height-full` | `min-height: 100%` | :x: |
+| `height-full` | `height: 100%` | :x: |
 
 <br />
 

@@ -1,122 +1,49 @@
 .relative {
   position: relative;
-  @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList {
-    &--#{$nameBreakpointSuffix} {
-      @include respondTo(#{$valueBreakpointSuffix}) {
-        position: relative;
-      }
-    }
-  }
 }
 
 .absolute {
   position: absolute;
-  @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList {
-    &--#{$nameBreakpointSuffix} {
-      @include respondTo(#{$valueBreakpointSuffix}) {
-        position: absolute;
-      }
-    }
-  }
 }
 
 .fixed {
   position: fixed;
-  @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList {
-    &--#{$nameBreakpointSuffix} {
-      @include respondTo(#{$valueBreakpointSuffix}) {
-        position: fixed;
-      }
-    }
-  }
+}
+
+.sticky {
+  position: sticky;
 }
 
 .top-0 {
   top: 0;
-  @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList {
-    &--#{$nameBreakpointSuffix} {
-      @include respondTo(#{$valueBreakpointSuffix}) {
-        top: 0;
-      }
-    }
-  }
 }
 
 .right-0 {
   right: 0;
-  @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList {
-    &--#{$nameBreakpointSuffix} {
-      @include respondTo(#{$valueBreakpointSuffix}) {
-        right: 0;
-      }
-    }
-  }
 }
 
 .bottom-0 {
   bottom: 0;
-  @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList {
-    &--#{$nameBreakpointSuffix} {
-      @include respondTo(#{$valueBreakpointSuffix}) {
-        bottom: 0;
-      }
-    }
-  }
 }
 
 .left-0 {
   left: 0;
-  @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList {
-    &--#{$nameBreakpointSuffix} {
-      @include respondTo(#{$valueBreakpointSuffix}) {
-        left: 0;
-      }
-    }
-  }
 }
 
 .top-full {
   top: 100%;
-  @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList {
-    &--#{$nameBreakpointSuffix} {
-      @include respondTo(#{$valueBreakpointSuffix}) {
-        top: 100%;
-      }
-    }
-  }
 }
 
 .right-full {
   right: 100%;
-  @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList {
-    &--#{$nameBreakpointSuffix} {
-      @include respondTo(#{$valueBreakpointSuffix}) {
-        right: 100%;
-      }
-    }
-  }
 }
 
 .bottom-full {
   bottom: 100%;
-  @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList {
-    &--#{$nameBreakpointSuffix} {
-      @include respondTo(#{$valueBreakpointSuffix}) {
-        bottom: 100%;
-      }
-    }
-  }
 }
 
 .left-full {
   left: 100%;
-  @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList {
-    &--#{$nameBreakpointSuffix} {
-      @include respondTo(#{$valueBreakpointSuffix}) {
-        left: 100%;
-      }
-    }
-  }
 }
 
 .fill {
@@ -124,55 +51,20 @@
   right: 0;
   bottom: 0;
   left: 0;
-  @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList {
-    &--#{$nameBreakpointSuffix} {
-      @include respondTo(#{$valueBreakpointSuffix}) {
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-      }
-    }
-  }
 }
 
 .center-x {
   left: 50%;
   transform: translateX(-50%);
-  @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList {
-    &--#{$nameBreakpointSuffix} {
-      @include respondTo(#{$valueBreakpointSuffix}) {
-        top: 50%;
-        transform: translateY(-50%);
-      }
-    }
-  }
 }
 
 .center-y {
   top: 50%;
   transform: translateY(-50%);
-  @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList {
-    &--#{$nameBreakpointSuffix} {
-      @include respondTo(#{$valueBreakpointSuffix}) {
-        top: 50%;
-        transform: translateY(-50%);
-      }
-    }
-  }
 }
 
 .center {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList {
-    &--#{$nameBreakpointSuffix} {
-      @include respondTo(#{$valueBreakpointSuffix}) {
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-      }
-    }
-  }
 }
