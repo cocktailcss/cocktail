@@ -42,7 +42,7 @@
   }
 }
 
-.fixed {
+.sticky {
   position: sticky;
   @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList {
     &--#{$nameBreakpointSuffix} {
