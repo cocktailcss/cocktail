@@ -1,13 +1,45 @@
+.static {
+  position: static;
+  @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList {
+    &--#{$nameBreakpointSuffix} {
+      @include respondTo(#{$valueBreakpointSuffix}) {
+        position: static;
+      }
+    }
+  }
+}
+
 .relative {
   position: relative;
+  @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList {
+    &--#{$nameBreakpointSuffix} {
+      @include respondTo(#{$valueBreakpointSuffix}) {
+        position: relative;
+      }
+    }
+  }
 }
 
 .absolute {
   position: absolute;
+  @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList {
+    &--#{$nameBreakpointSuffix} {
+      @include respondTo(#{$valueBreakpointSuffix}) {
+        position: absolute;
+      }
+    }
+  }
 }
 
 .fixed {
   position: fixed;
+  @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList {
+    &--#{$nameBreakpointSuffix} {
+      @include respondTo(#{$valueBreakpointSuffix}) {
+        position: fixed;
+      }
+    }
+  }
 }
 
 .sticky {

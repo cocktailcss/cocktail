@@ -27,18 +27,18 @@ Cocktail is a helper set of CSS utility classes for most frequently used styles.
 
 Provided styles are well enough for most basic styling use cases. It helps you develop much faster if you don't aim for pixel perfect design.
 
-- Standalone with no dependencies  
-- Flexbox and 12-column grid  
+- Standalone with no dependencies
+- Flexbox and 12-column grid
 - `rem` units for scalable layouts
 - No `!important` rules
 - Mobile-first breakpoints where it matters
-- `6.1 kB` gziped
+- `6.2 kB` gziped
 
 <br />
 
 # Difference from others
 
-Tools like [Tachyons](https://tachyons.io/), [Tailwind](https://tailwindcss.com/), [Basscss](http://basscss.com/) and [Blueprint](https://blueprintcss.io/) provide great functionality with similar approach. But they might be quite overwhelming and bloated with redunant or rarely used styles, old-fashion tweaks like clearfixes, float grids, etc. Also they are known for violating simple CSS class name conventions, making them hard to read and impossible to use with some tools (e.g. [Pug](https://github.com/pugjs/pug) templating).
+Tools like [Tachyons](https://tachyons.io/), [Tailwind](https://tailwindcss.com/), [Basscss](http://basscss.com/) and [Blueprint](https://blueprintcss.io/) provide great functionality with similar approach. But they might be quite overwhelming and bloated with redunant or rarely used styles, old-fashion tweaks like clearfixes, float grids, etc. Also they are known for violating simple CSS class name conventions, making them hard to read and to use with some tools (e.g. [Pug](https://github.com/pugjs/pug) templating).
 
 Cocktail aims for modern standard. It utilizes most frequently used styles and adheres [KISS](https://en.wikipedia.org/wiki/KISS_principle) principle to create a solid ground for basic styling. The rest you can (and should) write on your own.
 

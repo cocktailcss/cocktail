@@ -8,14 +8,10 @@ const scss = () =>
     .src("scss/cocktail.scss")
     .pipe(
       sass({
-        outputStyle: "expanded"
+        outputStyle: "expanded",
       }).on("error", sass.logError)
     )
-    .pipe(
-      autoprefixer({
-        browsers: ["> 1%"]
-      })
-    )
+    .pipe(autoprefixer())
     .pipe(groupCSSmediaQuery())
     .pipe(gulp.dest("./"));
 

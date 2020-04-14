@@ -307,6 +307,10 @@
   overflow: auto;
 }
 
+.static {
+  position: static;
+}
+
 .relative {
   position: relative;
 }
@@ -1323,6 +1327,22 @@
     grid-gap: 5rem;
   }
 
+  .static--sm {
+    position: static;
+  }
+
+  .relative--sm {
+    position: relative;
+  }
+
+  .absolute--sm {
+    position: absolute;
+  }
+
+  .fixed--sm {
+    position: fixed;
+  }
+
   .width-full--sm {
     width: 100%;
   }
@@ -2026,6 +2046,22 @@
 
   .grid-gap-7--md {
     grid-gap: 5rem;
+  }
+
+  .static--md {
+    position: static;
+  }
+
+  .relative--md {
+    position: relative;
+  }
+
+  .absolute--md {
+    position: absolute;
+  }
+
+  .fixed--md {
+    position: fixed;
   }
 
   .width-full--md {
@@ -2733,6 +2769,22 @@
     grid-gap: 5rem;
   }
 
+  .static--lg {
+    position: static;
+  }
+
+  .relative--lg {
+    position: relative;
+  }
+
+  .absolute--lg {
+    position: absolute;
+  }
+
+  .fixed--lg {
+    position: fixed;
+  }
+
   .width-full--lg {
     width: 100%;
   }
@@ -3438,6 +3490,22 @@
     grid-gap: 5rem;
   }
 
+  .static--xl {
+    position: static;
+  }
+
+  .relative--xl {
+    position: relative;
+  }
+
+  .absolute--xl {
+    position: absolute;
+  }
+
+  .fixed--xl {
+    position: fixed;
+  }
+
   .width-full--xl {
     width: 100%;
   }
@@ -4141,6 +4209,22 @@
 
   .grid-gap-7--xxl {
     grid-gap: 5rem;
+  }
+
+  .static--xxl {
+    position: static;
+  }
+
+  .relative--xxl {
+    position: relative;
+  }
+
+  .absolute--xxl {
+    position: absolute;
+  }
+
+  .fixed--xxl {
+    position: fixed;
   }
 
   .width-full--xxl {

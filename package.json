@@ -1,8 +1,11 @@
 {
   "name": "cocktailcss",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "description": "Functional CSS classes",
   "repository": "cocktailcss/cocktail",
+  "scripts": {
+    "start": "gulp"
+  },
   "keywords": [
     "responsive",
     "css",
@@ -14,19 +17,17 @@
     "performance"
   ],
   "unpkg": "cocktail.min.css",
+  "main": "cocktail.min.css",
   "license": "MIT",
-  "scripts": {
-    "start": "gulp"
-  },
   "dependencies": {
-    "browser-sync": "^2.24.7",
-    "gulp": "^4.0.0",
-    "gulp-autoprefixer": "^6.0.0",
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.1.0",
     "gulp-clean-css": "^3.10.0",
     "gulp-group-css-media-queries": "^1.2.2",
     "gulp-pug": "^4.0.1",
     "gulp-rename": "^1.4.0",
-    "gulp-sass": "^4.0.1",
+    "gulp-sass": "^4.0.2",
     "gulp-size": "^3.0.0"
   },
   "devDependencies": {
