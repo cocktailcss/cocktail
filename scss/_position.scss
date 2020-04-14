@@ -42,8 +42,15 @@
   }
 }
 
-.sticky {
+.fixed {
   position: sticky;
+  @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList {
+    &--#{$nameBreakpointSuffix} {
+      @include respondTo(#{$valueBreakpointSuffix}) {
+        position: sticky;
+      }
+    }
+  }
 }
 
 .top-0 {

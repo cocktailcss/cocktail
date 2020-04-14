@@ -237,10 +237,11 @@ Usage examples:
 
 | Class  | Style  | Breakpoint support |
 | - | - | :-: |
-| `relative` | `position: relative` | :x: |
-| `absolute` | `position: absolute` | :x: |
-| `fixed` | `position: fixed` | :x: |
-| `sticky` | `position: sticky` | :x: |
+| `static` | `position: static` | :heavy_check_mark: |
+| `relative` | `position: relative` | :heavy_check_mark: |
+| `absolute` | `position: absolute` | :heavy_check_mark: |
+| `fixed` | `position: fixed` | :heavy_check_mark: |
+| `sticky` | `position: sticky` | :heavy_check_mark: |
 | | | |
 | `top-0` | `top: 0` | :x: |
 | `right-0` | `right: 0` | :x: |
