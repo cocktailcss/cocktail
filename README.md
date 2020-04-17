@@ -32,7 +32,7 @@ Provided styles are well enough for most basic styling use cases. It helps you d
 - `rem` units for scalable layouts
 - No `!important` rules
 - Mobile-first breakpoints where it matters
-- `6.2 kB` gziped
+- `6.3 kB` gziped
 
 <br />
 
@@ -128,6 +128,10 @@ Usage examples:
 | `inline-flex` | `display: inline-flex` | :heavy_check_mark: |
 | `grid` | `display: grid`<br />`grid-template-columns: repeat(12, 1fr)` | :heavy_check_mark: |
 | `hidden` | `display: none` | :heavy_check_mark: |
+| `transparent` | `opacity: 0` | :heavy_check_mark: |
+| `opaque` | `opacity: 1` | :heavy_check_mark: |
+| `invisible` | `visibility: hidden` | :heavy_check_mark: |
+| `visible` | `visibility: visible` | :heavy_check_mark: |
 
 <br />
 

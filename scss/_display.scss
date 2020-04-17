@@ -76,3 +76,47 @@
     }
   }
 }
+
+.invisible {
+  visibility: hidden;
+  @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList {
+    &--#{$nameBreakpointSuffix} {
+      @include respondTo(#{$valueBreakpointSuffix}) {
+        visibility: hidden;
+      }
+    }
+  }
+}
+
+.visible {
+  visibility: visible;
+  @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList {
+    &--#{$nameBreakpointSuffix} {
+      @include respondTo(#{$valueBreakpointSuffix}) {
+        visibility: visible;
+      }
+    }
+  }
+}
+
+.transparent {
+  opacity: 0;
+  @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList {
+    &--#{$nameBreakpointSuffix} {
+      @include respondTo(#{$valueBreakpointSuffix}) {
+        opacity: 0;
+      }
+    }
+  }
+}
+
+.opaque {
+  opacity: 1;
+  @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList {
+    &--#{$nameBreakpointSuffix} {
+      @include respondTo(#{$valueBreakpointSuffix}) {
+        opacity: 1;
+      }
+    }
+  }
+}
