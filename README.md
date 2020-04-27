@@ -32,7 +32,7 @@ Provided styles are well enough for most basic styling use cases. It helps you d
 - `rem` units for scalable layouts
 - No `!important` rules
 - Mobile-first breakpoints where it matters
-- `6.3 kB` gziped
+- `6.4 kB` gziped
 
 <br />
 
@@ -46,18 +46,17 @@ Cocktail aims for modern standard. It utilizes most frequently used styles and a
 
 # Getting started
 
-Link Cocktail CSS stylesheet in your project before all other stylesheets with one of the options below. Next you might refer to [docs](#docs) for classes usage details.
-
+Link Cocktail CSS stylesheet in your project before all other stylesheets with one of the options below.
 ## CDN
 
-The latest minified production ready stylesheet is available via https://unpkg.com/cocktailcss:
+The latest minified production-ready stylesheet is available via https://unpkg.com/cocktailcss:
 ```html
 <head>
   <link rel="stylesheet" href="https://unpkg.com/cocktailcss">
 </head>
 ```
 ## Download
-Download [`cocktail.css`](https://raw.githubusercontent.com/cocktailcss/cocktail/master/cocktail.css) or minified production ready [`cocktail.min.css`](https://raw.githubusercontent.com/cocktailcss/cocktail/master/cocktail.min.css). Put it in your project and link to it:
+Download [`cocktail.css`](https://raw.githubusercontent.com/cocktailcss/cocktail/master/cocktail.css) or [`cocktail.min.css`](https://raw.githubusercontent.com/cocktailcss/cocktail/master/cocktail.min.css) and link it.
 ```html
 <head>
   <link rel="stylesheet" href="style/cocktail.min.css">
@@ -73,9 +72,7 @@ Install package with `npm install cocktailcss`.
 
 Cocktail is built with [Sass (SCSS)](https://sass-lang.com/) and [Gulp](https://gulpjs.com/). You can customize your build the way you want. First, clone repository and install dependencies:
 ```bash
-git clone https://github.com/cocktailcss/cocktail.git
-cd cocktail
-npm install
+git clone https://github.com/cocktailcss/cocktail.git && cd cocktail && npm i
 ```
 
 Run `npm start` to start gulp task watcher. It will watch for `.scss` files changes and update `cocktail.css` and `cocktail.min.css`.
@@ -86,7 +83,7 @@ Run `npm start` to start gulp task watcher. It will watch for `.scss` files chan
 
 ## Breakpoints
 
-Classes that support mobile-first breakpoints are marked with :heavy_check_mark: symbol in `Breakpoint support` table column. These classes might have a specific suffix to enable style at given breakpoint.
+Classes that support mobile-first breakpoints are marked with :heavy_check_mark: symbol in `Breakpoint support` table column. These classes have a specific suffix to enable style at given viewport breakpoint.
 
 | Device  | Suffix | Media query  |
 | - | - | - |
@@ -273,6 +270,8 @@ Usage examples:
 | `z-index-1` | `z-index: 1` | :x: |
 | `z-index-2` | `z-index: 2` | :x: |
 | `z-index-3` | `z-index: 3` | :x: |
+| `z-index-4` | `z-index: 4` | :x: |
+| `z-index-5` | `z-index: 5` | :x: |
 
 <br />
 
@@ -317,7 +316,9 @@ Usage examples:
 | Class  | Style  | Breakpoint support |
 | - | - | :-: |
 | `max-width-full` | `max-width: 100%` | :x: |
+| `max-width-full-view` | `max-width: 100vw` | :x: |
 | `min-width-full` | `min-width: 100%` | :x: |
+| `min-width-full-view` | `min-width: 100vw` | :x: |
 | `width-full` | `width: 100%` | :heavy_check_mark: |
 | `width-auto` | `width: auto` | :heavy_check_mark: |
 
@@ -329,8 +330,11 @@ Usage examples:
 | Class  | Style  | Breakpoint support |
 | - | - | :-: |
 | `max-height-full` | `max-height: 100%` | :x: |
+| `max-height-full-view` | `max-height: 100vh` | :x: |
 | `min-height-full` | `min-height: 100%` | :x: |
+| `min-height-full-view` | `min-height: 100vh` | :x: |
 | `height-full` | `height: 100%` | :x: |
+| `height-full-view` | `height: 100vh` | :x: |
 
 <br />
 

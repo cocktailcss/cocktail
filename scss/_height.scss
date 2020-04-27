@@ -2,10 +2,22 @@
   max-height: 100%;
 }
 
+.max-height-full-view {
+  max-height: 100vh;
+}
+
 .min-height-full {
   min-height: 100%;
 }
 
+.min-height-full-view {
+  min-height: 100vh;
+}
+
 .height-full {
   height: 100%;
+}
+
+.height-full-view {
+  height: 100vh;
 }
