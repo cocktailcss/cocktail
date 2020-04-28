@@ -1,17 +1,45 @@
 .max-width-full {
   max-width: 100%;
+  @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList {
+    &--#{$nameBreakpointSuffix} {
+      @include respondTo(#{$valueBreakpointSuffix}) {
+        max-width: 100%;
+      }
+    }
+  }
 }
 
 .max-width-full-view {
   max-width: 100vw;
+  @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList {
+    &--#{$nameBreakpointSuffix} {
+      @include respondTo(#{$valueBreakpointSuffix}) {
+        max-width: 100vw;
+      }
+    }
+  }
 }
 
 .min-width-full {
   min-width: 100%;
+  @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList {
+    &--#{$nameBreakpointSuffix} {
+      @include respondTo(#{$valueBreakpointSuffix}) {
+        min-width: 100%;
+      }
+    }
+  }
 }
 
 .min-width-full-view {
   min-width: 100vw;
+  @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList {
+    &--#{$nameBreakpointSuffix} {
+      @include respondTo(#{$valueBreakpointSuffix}) {
+        min-width: 100vw;
+      }
+    }
+  }
 }
 
 .width-full {

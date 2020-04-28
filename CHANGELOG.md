@@ -1,5 +1,11 @@
 # Changelog
 
+## [3.5.0] - 2020-04-28
+
+### Added
+
+* Breakpoint suffixes for `width` and `height` classes.
+
 ## [3.4.0] - 2020-04-27
 
 ### Added

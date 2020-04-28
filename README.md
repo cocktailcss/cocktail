@@ -32,7 +32,7 @@ Provided styles are well enough for most basic styling use cases. It helps you d
 - `rem` units for scalable layouts
 - No `!important` rules
 - Mobile-first breakpoints where it matters
-- `6.4 kB` gziped
+- `6.6 kB` gziped
 
 <br />
 
@@ -315,10 +315,10 @@ Usage examples:
 
 | Class  | Style  | Breakpoint support |
 | - | - | :-: |
-| `max-width-full` | `max-width: 100%` | :x: |
-| `max-width-full-view` | `max-width: 100vw` | :x: |
-| `min-width-full` | `min-width: 100%` | :x: |
-| `min-width-full-view` | `min-width: 100vw` | :x: |
+| `max-width-full` | `max-width: 100%` | :heavy_check_mark: |
+| `max-width-full-view` | `max-width: 100vw` | :heavy_check_mark: |
+| `min-width-full` | `min-width: 100%` | :heavy_check_mark: |
+| `min-width-full-view` | `min-width: 100vw` | :heavy_check_mark: |
 | `width-full` | `width: 100%` | :heavy_check_mark: |
 | `width-auto` | `width: auto` | :heavy_check_mark: |
 
@@ -329,12 +329,12 @@ Usage examples:
 
 | Class  | Style  | Breakpoint support |
 | - | - | :-: |
-| `max-height-full` | `max-height: 100%` | :x: |
-| `max-height-full-view` | `max-height: 100vh` | :x: |
-| `min-height-full` | `min-height: 100%` | :x: |
-| `min-height-full-view` | `min-height: 100vh` | :x: |
-| `height-full` | `height: 100%` | :x: |
-| `height-full-view` | `height: 100vh` | :x: |
+| `max-height-full` | `max-height: 100%` | :heavy_check_mark: |
+| `max-height-full-view` | `max-height: 100vh` | :heavy_check_mark: |
+| `min-height-full` | `min-height: 100%` | :heavy_check_mark: |
+| `min-height-full-view` | `min-height: 100vh` | :heavy_check_mark: |
+| `height-full` | `height: 100%` | :heavy_check_mark: |
+| `height-full-view` | `height: 100vh` | :heavy_check_mark: |
 
 <br />
 
