@@ -476,6 +476,8 @@ Usage examples:
 | `border-rounded-1` | `border-radius: 0.125rem` | :x: |
 | `border-rounded-2` | `border-radius: 0.25rem` | :x: |
 | `border-rounded-3` | `border-radius: 0.5rem` | :x: |
+| `border-rounded-4` | `border-radius: 1rem` | :x: |
+| `border-rounded-5` | `border-radius: 2rem` | :x: |
 | `border-rounded-max` | `border-radius: 9999px` | :x: |
 
 <br />
