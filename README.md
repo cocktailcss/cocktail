@@ -32,7 +32,7 @@ Provided styles are well enough for most basic styling use cases. It helps you d
 - `rem` units for scalable layouts
 - No `!important` rules
 - Mobile-first breakpoints where it matters
-- `6.6 kB` gziped
+- `6.7 kB` gziped
 
 <br />
 
@@ -228,8 +228,8 @@ Usage examples:
 
 | Class  | Style  | Breakpoint support |
 | - | - | :-: |
-| `overflow-hidden` | `overflow: hidden` | :x: |
-| `overflow-auto` | `overflow: auto` | :x: |
+| `overflow-hidden` | `overflow: hidden` | :heavy_check_mark: |
+| `overflow-auto` | `overflow: auto` | :heavy_check_mark: |
 
 <br />
 

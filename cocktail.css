@@ -1395,6 +1395,14 @@
     grid-gap: 5rem;
   }
 
+  .overflow-hidden--sm {
+    overflow: hidden;
+  }
+
+  .overflow-auto--sm {
+    overflow: auto;
+  }
+
   .static--sm {
     position: static;
   }
@@ -2175,6 +2183,14 @@
 
   .grid-gap-7--md {
     grid-gap: 5rem;
+  }
+
+  .overflow-hidden--md {
+    overflow: hidden;
+  }
+
+  .overflow-auto--md {
+    overflow: auto;
   }
 
   .static--md {
@@ -2959,6 +2975,14 @@
     grid-gap: 5rem;
   }
 
+  .overflow-hidden--lg {
+    overflow: hidden;
+  }
+
+  .overflow-auto--lg {
+    overflow: auto;
+  }
+
   .static--lg {
     position: static;
   }
@@ -3741,6 +3765,14 @@
     grid-gap: 5rem;
   }
 
+  .overflow-hidden--xl {
+    overflow: hidden;
+  }
+
+  .overflow-auto--xl {
+    overflow: auto;
+  }
+
   .static--xl {
     position: static;
   }
@@ -4521,6 +4553,14 @@
 
   .grid-gap-7--xxl {
     grid-gap: 5rem;
+  }
+
+  .overflow-hidden--xxl {
+    overflow: hidden;
+  }
+
+  .overflow-auto--xxl {
+    overflow: auto;
   }
 
   .static--xxl {

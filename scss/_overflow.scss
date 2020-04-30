@@ -1,7 +1,21 @@
 .overflow-hidden {
   overflow: hidden;
+  @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList {
+    &--#{$nameBreakpointSuffix} {
+      @include respondTo(#{$valueBreakpointSuffix}) {
+        overflow: hidden;
+      }
+    }
+  }
 }
 
 .overflow-auto {
   overflow: auto;
+  @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList {
+    &--#{$nameBreakpointSuffix} {
+      @include respondTo(#{$valueBreakpointSuffix}) {
+        overflow: auto;
+      }
+    }
+  }
 }
